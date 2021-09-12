@@ -1,0 +1,88 @@
+html {
+  font-family: "Open Sans", monospace;
+  box-sizing: border-box;
+  background-image: url(../photogallery/cosmere-backup.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 0.9;
+}
+body {
+  opacity: 1;
+}
+header {
+  font-size: 5em;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(72, 87, 87);
+  color: gray;
+  padding: 15px 0 20px;
+  letter-spacing: 4px;
+  width: 60%;
+  margin: 0px auto;
+  border-radius: 8px;
+  border: 2px solid rgb(4, 160, 160);
+  text-shadow: -2px 2px #272525;
+}
+
+header:hover {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  border-bottom: inset 3px red;
+}
+
+main .author {
+  display: flex;
+  align-items: stretch;
+  width: 90%;
+  border-top: 1px solid gray;
+  border-bottom: 2px solid gray;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(22, 126, 212, 0.226);
+  border-radius: 5px;
+}
+h2 {
+  display: block;
+  font-size: 25px;
+  margin: 15px 80px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 2px solid rgb(4, 160, 160);
+  font-size: 3em;
+  font-weight: bolder;
+  width: 20%;
+  text-align: center;
+  background-color: rgba(32, 178, 171, 0.24);
+}
+h2:hover {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  border-bottom: inset 3px red;
+  transform: scale(1.01);
+  background-color: rgba(22, 183, 212, 0.397);
+  transform: skew(120);
+}
+main p {
+  max-width: 60%;
+  margin: 15px 25px;
+  padding: 15px 20px;
+  text-align: justify;
+  font-size: 1.3em;
+}
+
+main img {
+  height: 250px;
+  width: 200px;
+  align-self: auto;
+  border-radius: 10px;
+}
+main iframe {
+  width: 40%;
+  height: 250px;
+  margin: 15px 25px;
+  border-radius: 20px;
+}
+
+main .wayofkings {
+}
